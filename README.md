@@ -12,6 +12,13 @@ Accurate screening of cancer types is a critical process in cancer detection, wh
 ## Instructions
 ### 1. Main Code
 - EODE.m (This is the main file of the proposed model)
+  - You can replace your data in the **Problem**
+  - You can set the number of iterations of the whole experiment through **numRun**
+  - The file path can be replaced under **traindata** and **testdata**
+  - The parameters of GWO algorithm can be replaced in:
+    - opts.k = 3; % number of k in K-nearest neighbor
+    - opts.N = 100; % number of solutions
+    - opts.T = 50; % maximum number of iterations
 ### 2. Data Partition 
 - DataPartition.m (This file is used to divide the raw data in a 8:2 ratio)
 ### 3. Feature Selection Phase
