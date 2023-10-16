@@ -9,6 +9,8 @@ Accurate screening of cancer types is a critical process in cancer detection, wh
 - **OriginalData**: The original data. They were randomly divided into the training set and the test set in an 8:2 ratio.
 - **TrainData**: Training data used in the experiment.
 - **TestData**: Test data used in the experiment.
+## Dependencies
+- This project was developped with **MATLAB 2018b**. Early versions of MATLAB may have incompatibilities.
 ## Instructions
 ### 1. Main Code
 - EODE.m (This is the main file of the proposed model)
@@ -19,6 +21,8 @@ Accurate screening of cancer types is a critical process in cancer detection, wh
     - opts.k = 3; % number of k in K-nearest neighbor
     - opts.N = 100; % number of solutions
     - opts.T = 50; % maximum number of iterations
+      
+To reproduce our experiments, you can run **EODE.m** ten times and take the average of the results.
 ### 2. Data Partition 
 - DataPartition.m (This file is used to divide the raw data in a 8:2 ratio)
 ### 3. Feature Selection Phase
