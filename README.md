@@ -10,7 +10,7 @@ Accurate screening of cancer types is a critical process in cancer detection, wh
 - **TrainData**: Training data used in the experiment.
 - **TestData**: Test data used in the experiment.
 ## Dependencies
-- This project was developped with **MATLAB 2018b**. Early versions of MATLAB may have incompatibilities.
+- This project was developped with **MATLAB 2021a**. Early versions of MATLAB may have incompatibilities.
 ## Instructions
 ### 1. Main Code
 - EODE.m (This is the main file of the proposed model)
