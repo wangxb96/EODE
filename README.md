@@ -5,6 +5,7 @@
 - [Data and Baseline Availability](#Data-and-Baseline-Availability)
 - [Dependencies](#Dependencies)
 - [Instructions](#Instructions)
+- [Results](#Results)
 - [Contact](#Contact)
 
 ## Framework
@@ -49,6 +50,9 @@ To reproduce our experiments, you can run **EODE.m** ten times and take the aver
 ### 7. Fitness Function
 - jFeatureSelectionFunction.m
 - jFitnessFunction.m
+
+## Results
+We conducted experiments on 35 datasets encompassing various cancer types, and the results demonstrate the effectiveness of our algorithm compared to four nature-inspired ensemble methods (PSOEL, EAEL, FESM, and GA-Bagging-SVM), six benchmark machine learning algorithms (KNN, DT, ANN, SVM, DISCR, and NB), six state-of-the-art ensemble algorithms (RF, ADABOOST, RUSBOOST, SUBSPACE, TOTALBOOST, and LPBOOST), and seven nature-inspired methods (ACO, CS, DE, GA, GWO, PSO, and ABC). Our algorithm outperformed these methods in terms of classification accuracy.
 
 ## Contact
 wangxb19 at mails.jlu.edu.cn
