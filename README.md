@@ -2,23 +2,26 @@
 # Contents 
 - [Framework](#Framework)
 - [Overview](#Overview)
-- [Folders](#Folders)
+- [Data and Baseline Availability](#Data-and-Baseline-Availability)
 - [Dependencies](#Dependencies)
 - [Instructions](#Instructions)
 - [Contact](#Contact)
 
 ## Framework
 ![model](https://github.com/wangxb96/EODE/blob/master/frameworkpro.png)
+
 ## Overview
 Accurate screening of cancer types is crucial for effective cancer detection and precise treatment selection. However, the association between gene expression profiles and tumors is often limited to a small number of biomarker genes. While computational methods using nature-inspired algorithms have shown promise in selecting predictive genes, existing techniques are limited by inefficient search and poor generalization across diverse datasets. This study presents a framework termed Evolutionary Optimized Diverse Ensemble Learning (EODE) to improve ensemble learning for cancer classification from gene expression data. The EODE methodology combines an intelligent grey wolf optimization algorithm for selective feature space reduction, guided random injection modeling for ensemble diversity enhancement, and subset model optimization for synergistic classifier combinations. Extensive experiments were conducted across 35 gene expression benchmark datasets encompassing varied cancer types. Results demonstrated that EODE obtained significantly improved screening accuracy over individual and conventionally aggregated models. The integrated optimization of advanced feature selection, directed specialized modeling, and cooperative classifier ensembles helps address key challenges in current nature-inspired approaches. This provides an effective framework for robust and generalized ensemble learning with gene expression biomarkers. 
 
-## Folders
+## Data and Baseline Availability
 - **ComparisonMethods**: The baselines for comparison, including nature-inspired methods, machine learning methods and ensemble methods.
 - **OriginalData**: The original data. They were randomly divided into the training set and the test set in an 8:2 ratio.
 - **TrainData**: Training data used in the experiment.
 - **TestData**: Test data used in the experiment.
+
 ## Dependencies
 - This project was developped with **MATLAB 2021a**. Early versions of MATLAB may have incompatibilities.
+
 ## Instructions
 ### 1. Main Code
 - EODE.m (This is the main file of the proposed model)
