@@ -1,5 +1,12 @@
-# EODE
-Code for "Exhaustive Exploitation of Nature-inspired Computation for Cancer Screening in an Ensemble Manner"
+# EODE: "Exhaustive Exploitation of Nature-inspired Computation for Cancer Screening in an Ensemble Manner"
+# Contents 
+- [Framework](##Framework)
+- [Abstract](##Abstract)
+- [Folders](##Folders)
+- [Dependencies](##Dependencies)
+- [Instructions](##Instructions)
+- [Contact](##Contact)
+
 ## Framework
 ![model](https://github.com/wangxb96/EODE/blob/master/frameworkpro.png)
 ## Abstract
