@@ -1,7 +1,7 @@
 # EODE: "Exhaustive Exploitation of Nature-inspired Computation for Cancer Screening in an Ensemble Manner"
 # Contents 
 - [Framework](#Framework)
-- [Abstract](#Abstract)
+- [Overview](#Overview)
 - [Folders](#Folders)
 - [Dependencies](#Dependencies)
 - [Instructions](#Instructions)
@@ -9,8 +9,9 @@
 
 ## Framework
 ![model](https://github.com/wangxb96/EODE/blob/master/frameworkpro.png)
-## Abstract
-Accurate screening of cancer types is a critical process in cancer detection, which can help cancer patients by providing them with a precise treatment. Unfortunately, only a few characteristic biomarker genes from gene expression profiles  are closely associated with tumors. Therefore, it is relevant and essential to select biomarker genes from these profiles for screening in cancer. Recent nature-inspired computational methods have been proposed for the selection of relevant biomarker genes across multiple types of cancers. However, we note some limitations; such as low efficiency and poor generalization. To address these challenges, this paper proposes a framework called EODE, which incorporates the grey wolf optimizer (GWO) to optimize feature subsets and then creates an optimized ensemble classifier in a collaborative manner. We demonstrate the performance of our proposed model using 35 different cancer gene expression datasets. The experimental results reveal that our model has strong robustness compared with other benchmark methods for the identification of important biomarker genes across different cancer types. Furthermore, we investigate the general applicability of EODE on a pan-cancer dataset containing 33 different cancer types from the The Cancer Genome Atlas (TCGA) PanCanAtlas project. EODE achieved an accuracy of 0.8654 and performed better than the other computational models. In addition, we conduct gene ontology enrichment and pathology analyses to reveal new insights into the characterization and identification of underlying cancer pathogenesis.
+## Overview
+Accurate screening of cancer types is crucial for effective cancer detection and precise treatment selection. However, the association between gene expression profiles and tumors is often limited to a small number of biomarker genes. While computational methods using nature-inspired algorithms have shown promise in selecting predictive genes, existing techniques are limited by inefficient search and poor generalization across diverse datasets. This study presents a framework termed Evolutionary Optimized Diverse Ensemble Learning (EODE) to improve ensemble learning for cancer classification from gene expression data. The EODE methodology combines an intelligent grey wolf optimization algorithm for selective feature space reduction, guided random injection modeling for ensemble diversity enhancement, and subset model optimization for synergistic classifier combinations. Extensive experiments were conducted across 35 gene expression benchmark datasets encompassing varied cancer types. Results demonstrated that EODE obtained significantly improved screening accuracy over individual and conventionally aggregated models. The integrated optimization of advanced feature selection, directed specialized modeling, and cooperative classifier ensembles helps address key challenges in current nature-inspired approaches. This provides an effective framework for robust and generalized ensemble learning with gene expression biomarkers. 
+
 ## Folders
 - **ComparisonMethods**: The baselines for comparison, including nature-inspired methods, machine learning methods and ensemble methods.
 - **OriginalData**: The original data. They were randomly divided into the training set and the test set in an 8:2 ratio.
