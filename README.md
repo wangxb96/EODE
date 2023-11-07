@@ -26,7 +26,16 @@ Accurate screening of cancer types is crucial for effective cancer detection and
 ## Instructions
 ### 1. Main Code
 - EODE.m (This is the main file of the proposed model)
-  - You can replace your data in the **Problem**
+  - You can replace your data in the **Problem**. For example:
+    - Problem = {'The_name_of_your_own_data'};
+  - How to load your own data?
+    ```
+      traindata = load(['C:\Users\c\Desktop\SaWDE\train\',p_name]);
+      traindata = getfield(traindata, p_name);
+      data = traindata;
+      feat = data(:,1:end-1); 
+      label = data(:,end);
+    ```
   - You can set the number of iterations of the whole experiment through **numRun**
   - The file path can be replaced under **traindata** and **testdata**
   - The parameters of GWO algorithm can be replaced in:
