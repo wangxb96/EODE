@@ -30,7 +30,7 @@ Accurate screening of cancer types is crucial for effective cancer detection and
     - Problem = {'The_name_of_your_own_data'};
   - How to load your own data?
     ```
-      traindata = load(['C:\Users\c\Desktop\SaWDE\train\',p_name]);
+      traindata = load(['C:\Users\c\Desktop\EODE\train\',p_name]);
       traindata = getfield(traindata, p_name);
       data = traindata;
       feat = data(:,1:end-1); 
