@@ -1,4 +1,17 @@
-# EODE: "Exhaustive Exploitation of Nature-inspired Computation for Cancer Screening in an Ensemble Manner"
+<div align="center">
+<h1>Exhaustive Exploitation of Nature-inspired Computation for Cancer Screening in an Ensemble Manner</h1>
+
+[**Xubin Wang**](https://github.com/wangxb96)<sup>1</sup> · **Yunhe Wang**<sup>2*</sup> · **Zhiqing Ma**<sup>3</sup> · **Ka-Chun Wong**<sup>4</sup> · **Xiangtao Li**<sup>1*</sup>
+
+
+<sup>1</sup>Jilin University · <sup>2</sup>Hebei University of Technology · <sup>3</sup>Northeast Normal University · <sup>4</sup>City University of Hong Kong
+
+<sup>*</sup>corresponding authors
+
+[**Code**](https://github.com/wangxb96/EODE)
+
+</div>
+
 # Contents 
 - [Framework](#Framework)
 - [Overview](#Overview)
