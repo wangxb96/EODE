@@ -8,7 +8,7 @@
 
 <sup>*</sup>corresponding authors
 
-[**Code**](https://github.com/wangxb96/EODE)
+[**PDF**](https://www.wangxubin.site/Paper/EODE_TCBB.pdf) · **Code**](https://github.com/wangxb96/EODE)
 
 </div>
 
@@ -36,7 +36,7 @@ Overview of the proposed EODE algorithm: In the GWO feature selection phase, the
 - **TestData**: Test data used in the experiment.
 
 ## Dependencies
-- This project was developped with **MATLAB 2021a**. Early versions of MATLAB may have incompatibilities.
+- This project was developed with **MATLAB 2021a**. Early versions of MATLAB may have incompatibilities.
 
 ## Instructions
 ### 1. Main Code
