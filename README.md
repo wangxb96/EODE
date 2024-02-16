@@ -8,7 +8,7 @@
 
 <sup>*</sup>corresponding authors
 
-[**PDF**](https://www.wangxubin.site/Paper/EODE_TCBB.pdf) · **Code**](https://github.com/wangxb96/EODE)
+[**PDF**](https://www.wangxubin.site/Paper/EODE_TCBB.pdf) · [**Code**](https://github.com/wangxb96/EODE)
 
 </div>
 
