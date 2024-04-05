@@ -19,6 +19,7 @@
 - [Dependencies](#Dependencies)
 - [Instructions](#Instructions)
 - [Results](#Results)
+- [Cite Our Work](#Cite-Our-Work)
 - [Contact](#Contact)
 
 
@@ -78,5 +79,15 @@ To reproduce our experiments, you can run **EODE.m** ten times and take the aver
 ## Results
 We conducted experiments on 35 datasets encompassing various cancer types, and the results demonstrate the effectiveness of our algorithm compared to four nature-inspired ensemble methods (PSOEL, EAEL, FESM, and GA-Bagging-SVM), six benchmark machine learning algorithms (KNN, DT, ANN, SVM, DISCR, and NB), six state-of-the-art ensemble algorithms (RF, ADABOOST, RUSBOOST, SUBSPACE, TOTALBOOST, and LPBOOST), and seven nature-inspired methods (ACO, CS, DE, GA, GWO, PSO, and ABC). Our algorithm outperformed these methods in terms of classification accuracy.
 
+## Cite Our Work
+```
+@article{wang2024eode，
+  title={Exhaustive Exploitation of Nature-inspired Computation for Cancer Screening in an Ensemble Manner}，
+  author={Wang， Xubin and Wang， Yunhe and Ma， Zhiqiang and Wong， Ka-Chun and Li， Xiangtao}，
+  journal={IEEE/ACM Transactions on Computational Biology and Bioinformatics}，
+  year={2024}，
+  publisher={IEEE/ACM}
+}
+```
 ## Contact
 wangxb19 at mails.jlu.edu.cn
